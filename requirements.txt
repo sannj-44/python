@@ -1,0 +1,17 @@
+# TensorFlow and Keras
+tensorflow==2.20.0
+keras==3.11.3
+
+# Core libraries
+numpy==2.2.6
+pandas==2.3.3
+matplotlib==3.10.7
+plotly==6.3.1
+
+# OpenCV
+opencv-python==4.12.0.88
+
+# Optional (if you need additional packages)
+# opencv-contrib-python==4.12.0.88
+torch
+torchvision
