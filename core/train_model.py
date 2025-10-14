@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATASET_PATH = os.path.join(BASE_DIR, "data", "images")
 MODEL_DIR = os.path.join(BASE_DIR, "models")
-MODEL_PATH = os.path.join(MODEL_DIR, "waste_model.h5")
+MODEL_PATH = os.path.join(MODEL_DIR, "waste_cnn_model.h5")
 
 # Data generator
 datagen = ImageDataGenerator(rescale=1.0/255.0, validation_split=0.2)

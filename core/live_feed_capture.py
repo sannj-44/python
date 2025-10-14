@@ -1,5 +1,3 @@
-# core/live_feed_capture.py
-
 import cv2
 import time
 
